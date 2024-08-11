@@ -1,0 +1,11 @@
+
+.newlesson {
+    min-height: 300px;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color .4s ease-in-out;
+    &:hover {
+        background: var(--mantine-color-gray-4);
+    }
+}
